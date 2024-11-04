@@ -81,7 +81,7 @@ function loopCharts() {
       else{
         i--;
       }
-    changeFilter("Metric Name", category_filter[i]);
+    changeFilter("Category", category_filter[i]);
   }
 
   function next() {
@@ -94,7 +94,7 @@ function loopCharts() {
       else{
         i++;
       }
-    changeFilter("Metric Name", category_filter[i]);
+    changeFilter("Category", category_filter[i]);
   }
 
   $('#start').bind("click", start); // use .on in jQuery 1.7+
