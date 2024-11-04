@@ -1,24 +1,38 @@
 # Tableau News Ticker Dynamic Portal (NTDP)
 
-It has two parts:
+Live View: <https://techwithvab.github.io/tableau-ntdp/>
 
-- News Ticker
-- Dynamic Portal with Playback controls
+Welcome, Tableau News Ticker Dynamic Portal has two parts:
 
-Both make use of Tableau Javascript API.
+- [Dynamic Monitor with Playback controls](#dynamic-monitor-with-playback-controls)
+- [News Ticker](#news-ticker)
 
-JS API provides:
+Fully resoinsive implementation that can fit any screen.
+
+## Dynamic Monitor with Playback controls
+
+It lets you change the dashboard view playback controls on top-right.
+
+## News Ticker
+
+It displays the metrics and KPIs in bottom, just like a news channel ticker.
+
+**JS API Overview:**
 
 - Hook for filter change
 - Data from sheet for ticker
 
-It makes use of:
+## Run it locally:
+
+1. Clone the repo
+2. Open a Python basic server
+
+   ```sh
+   python -m http.server
+   ```
+3. Open `index.html` in your favourite browser.
+
+**Other JS Libraries Used:**
 
 - Bootstrap
 - jQuery
-
-Python Server:
-
-```sh
-python -m http.server
-```
